@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # ----------- CONFIG ----------- #
-YOUTUBE_API_KEY = 'AIzaSyCpl-ZEBJC1uZkRJ07MlxrIQaNYZ-t8dZQ'  # 🔁 Replace with your actual key
+YOUTUBE_API_KEY = ''  # 🔁 Replace with your actual key
 youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
 
 # ----------- FUNCTIONS ----------- #
